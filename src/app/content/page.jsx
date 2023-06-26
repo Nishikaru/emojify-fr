@@ -47,24 +47,29 @@ const page = () => {
             </div>
             <div className="max-w-[800px]">
               <p className="text-center">
-              <span>Plot: </span>
-              <span>
-              A riotous and raunchy exploration of the most eagerly anticipated -- and most humiliating -- rite of adulthood, known as losing one s virginity. In this hilarious lesson in life, love and libido, a group of friends, fed up with their well-deserved reputations as sexual no-hitters, decide to take action.
-              </span>
+                <span>Plot: </span>
+                <span>
+                  A riotous and raunchy exploration of the most eagerly
+                  anticipated -- and most humiliating -- rite of adulthood,
+                  known as losing one s virginity. In this hilarious lesson in
+                  life, love and libido, a group of friends, fed up with their
+                  well-deserved reputations as sexual no-hitters, decide to take
+                  action.
+                </span>
               </p>
             </div>
           </div>
           <hr />
           <div>
-            <RateIt/>
+            <RateIt />
           </div>
           <hr />
           <div className="pt-6 flex flex-col items-center">
-                <h1 className='text-lg font-semibold'>Cast</h1>
-          <div className="flex flex-wrap gap-6 p-6">
-            <CastCard/>
-            <CastCard/>
-          </div>
+            <h1 className="text-lg font-semibold">Cast</h1>
+            <div className="flex flex-wrap gap-6 p-6">
+              <CastCard />
+              <CastCard />
+            </div>
           </div>
         </div>
       </div>
