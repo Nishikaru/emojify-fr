@@ -1,5 +1,5 @@
 import CommingSoonCard from '@/component/commingSoon/commingSoonCard/CommingSoonCard'
-import Nav from '@/component/nav/Nav'
+import Nav from '@/component/shared/nav/Nav'
 import Image from 'next/image'
 
 export default function Home() {

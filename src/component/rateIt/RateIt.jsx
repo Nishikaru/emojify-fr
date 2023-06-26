@@ -28,7 +28,7 @@ const RateIt = () => {
   ]
   return (
     <div className='flex flex-col items-center gap-6 py-6'>
-      <h3 className='text-lg font-semibold'>Rate It</h3>
+      <h3 className='text-lg font-semibold'>Whats Your feeling?</h3>
       <form className='flex flex-col gap-6 items-center'>
 
       <div className='h-[50px] text-5xl flex items-center'>

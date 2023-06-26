@@ -1,7 +1,8 @@
-import ContentSide from "@/component/contentSide/ContentSide";
-import Nav from "@/component/nav/Nav";
+import ContentSide from "@/component/content/contentSide/ContentSide";
+import Nav from "@/component/shared/nav/Nav";
 import RateIt from "@/component/rateIt/RateIt";
 import React from "react";
+import CastCard from "@/component/content/castCard/CastCard";
 
 const page = () => {
   return (
@@ -56,6 +57,14 @@ const page = () => {
           <hr />
           <div>
             <RateIt/>
+          </div>
+          <hr />
+          <div className="pt-6 flex flex-col items-center">
+                <h1 className='text-lg font-semibold'>Cast</h1>
+          <div className="flex flex-wrap gap-6 p-6">
+            <CastCard/>
+            <CastCard/>
+          </div>
           </div>
         </div>
       </div>

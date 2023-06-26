@@ -7,7 +7,7 @@ const Nav = () => {
     <div className='flex w-full justify-between p-6 fixed top-0 backdrop-blur-2xl z-50'>
       <Link href={'/'} className='text-2xl font-semibold'>😎Emojify</Link>
       <div className='flex items-center gap-12'>
-        <div>Top</div>
+        <div>Top on Emojify</div>
         <Link href={'/yourList'}>Your List</Link>
         <div>
           <form className='flex items-center'>
