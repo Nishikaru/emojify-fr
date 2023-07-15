@@ -1,8 +1,10 @@
 "use client";
 
+import { useMainContext } from "@/app/context/Context";
 import { useState } from "react";
 
 const RateIt = () => {
+  const {userId} = useMainContext();
   const [rated, setRated] = useState(null);
   const emos = [
     {
